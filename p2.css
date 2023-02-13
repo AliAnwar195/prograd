@@ -1,0 +1,122 @@
+*{
+	font-family: BrownStd-regular;
+}
+
+body{
+	background-color:#FAF9F9;
+	 font-family: Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}
+.financial-desp {
+    font-family: BrownStd-regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.0032em;
+    color: #677489;
+    text-align: justify
+}
+    
+.financial-title {
+    font-family: BrownStd-regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+label {
+    font-family: BrownStd-regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #20293A;
+    margin-bottom: 55px;
+}
+#navi{
+	padding: 0;
+	margin :0;
+}
+
+#navi ul {
+	  list-style-type: none;
+	  padding: 20px 90px;
+	  overflow: hidden;
+	  background-color: #309576;
+	  justify-content: center;
+	  margin:0px;
+}
+
+
+#navi li a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+} 		
+#page{
+	padding: 10px;
+	background-color: #FAF9F9;
+	width: auto;
+	margin:  0 10%;
+	padding: 3% 12%;
+	
+	
+}
+
+form{	
+	padding: 70px 50px;
+	background-color:#fff;
+	border-radius: 10px;
+	
+}
+
+footer{
+	
+	text-align: center;
+	width: auto;
+	background-color: white;
+	color: grey;
+	padding: 60px 0px;
+	
+}
+ #weblogo img{
+	text-align: center;
+	padding: 40px;
+	border-bottom: 2px solid #FAF9F9;
+	
+}
+
+#logo img{
+	
+	padding-top: 50px;	
+	width:50px;
+	height: 50px;
+}
+#logo a{
+	padding: 40px 10px;
+	text-decoration: none;
+}
+input[type="submit"]{
+	float: right;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 10px;
+}
+input[type="range"]{
+	color: green;
+}
+#end{
+	padding: 20px;
+	margin: 20px;
+}
+

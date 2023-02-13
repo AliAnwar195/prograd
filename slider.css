@@ -1,0 +1,143 @@
+.range-slider {
+  position: relative;
+ 
+}
+
+.range-slider__input {
+  width: 100%;
+  height: 46px;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    z-index: 2;
+}
+
+.range-slider__input:focus {
+  outline: none;
+}
+
+/**
+ * 1. Remove outline on FF.
+ */
+.range-slider__input::-moz-focus-outer {
+  border: 0; /* [1] */
+}
+
+.range-slider__input::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background-color: #CCC;
+  z-index: 2;
+
+}
+
+.range-slider__input::-webkit-slider-thumb {
+    width: 26px;
+    height: 26px;
+    margin-top: -12px;
+    border-radius: 50%;
+    background: #309576;
+    cursor: pointer;
+
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.range-slider__input::-moz-range-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  z-index: 2;
+
+}
+
+.range-slider__input::-moz-range-thumb {
+    width: 26px;
+    height: 26px;
+    margin-top: -12px;
+    border-radius: 50%;
+    background: #309576;
+    cursor: pointer;
+    -moz-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+   
+
+}
+
+.range-slider__input::-ms-track {
+  width: 100%;
+  height: 2px;
+  border-color: transparent;
+  border-width: 2px 0;
+  background: transparent;
+  color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+  z-index: 2;
+
+}
+
+.range-slider__input::-ms-fill-lower {
+  background: #666;
+  border-radius: 0;
+  height: 2px;
+  box-sizing: border-box;
+  z-index: 2;
+
+}
+
+.range-slider__input::-ms-fill-upper {
+  background: #CCC;
+  border-radius: 0;
+  height: 2px;
+  box-sizing: border-box;
+  z-index: 2;
+
+}
+
+.range-slider__input::-ms-thumb {
+    width: 26px;
+    height: 26px;
+    margin-top: -12px;
+    border-radius: 50%;
+    background: #309576;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/*
+    The container for the dot elements to sit in.
+ */
+.range-slider__dots {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px 18px;
+  position: absolute;
+  top: 17px;
+  left: -18px;
+  z-index: 0;
+}
+.range-slider__dots span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #CCC;
+  border-radius: 50%;
+  z-index: 0;
+}
+.slider ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; 
+    position: relative;
+    width: 100%;
+    top: 25px;
+    left: -45px;
+}
